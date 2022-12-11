@@ -30,4 +30,4 @@ class Config(object):
     DATABASE_NAME = "UTUProject"
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://testorg:testorg@cluster0.0menx0b.mongodb.net/?retryWrites=true&w=majority")
     MAX_RESULTS = "50"
-    AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "-1001727019488)
+    AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "-1001727019488")
